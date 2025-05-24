@@ -4,7 +4,7 @@ import com.devsuperior.dslist.entities.Game;
 
 
 
-
+// Versao encurtada da entidade Game
 public class GameMinDTO {
 
 
