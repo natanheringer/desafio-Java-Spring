@@ -27,7 +27,15 @@ public class GameController {
 		return result;
 	}
 	
-	
+	//functionality test
+	@RestController
+	public class TestController {
+	    
+	    @GetMapping("/ping")
+	    public String ping() {
+	        return "pong";
+	    }
+	}
 	
 	@GetMapping
 	public List<GameMinDTO> findAll(){
